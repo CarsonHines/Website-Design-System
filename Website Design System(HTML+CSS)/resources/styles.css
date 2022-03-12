@@ -1,0 +1,114 @@
+* {
+    margin: auto;
+}
+
+body {
+    background-image: url(006-subtle-light-patterns.jpg);
+    font-family: 'Nunito', serif;
+
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'oswald';
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#one  {
+    border: 5px solid;
+    width: 1000px;
+}
+
+#two {
+    border: 5px solid;
+    width: 1000px;
+}
+
+#three {
+    border: 5px solid;
+    width: 1000px;
+}
+
+.color {
+    padding: 20px 0px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.color li {
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 100px 
+}
+#peach {
+    background-color: #F38871;
+}
+
+#green {
+    background-color: #9AF147;
+}
+
+#purple {
+    background-color: #5E00C1;
+}
+
+.fonts {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+}
+
+#nunito {
+    font-family: 'Nunito', sans-serif;
+    border-style: none none none dashed;
+    padding: 5px;
+}
+
+#oswald {
+    font-family: 'Oswald', sans-serif;
+    border-style: none none none dashed;
+    padding: 5px;
+}
+
+#raleway {
+    font-family: 'Raleway', sans-serif;
+    border-style: none none none dashed;
+    padding: 5px;
+}
+
+#main {
+    list-style-type: none;
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'nunito';
+}
+
+#h2 {
+    list-style-type: none;
+    font-size: 25px;
+    font-family: 'oswald';
+    font-weight: bold;
+}
+
+#p {
+    list-style-type: none;
+    font-size: 16px;
+    font-family: 'raleway';
+}
